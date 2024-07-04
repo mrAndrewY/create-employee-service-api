@@ -10,7 +10,7 @@
     "telephone"
   ],
   "properties": {
-    "employee_id": {
+    "id": {
       "type": "string"
     },
     "name": {
@@ -23,9 +23,8 @@
       "type": "string",
       "pattern": "^[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,6}$"
     },
-    "telephone": {
-      "type": "string",
-      "pattern": "^(\\+7|8)?(\\s?\\(?\\d{3}\\)?[\\s-]?)?\\d{3}[\\s-]?\\d{2}[\\s-]?\\d{2}$"
+    "phone": {
+      "type": "string"
     }
   }
 }
