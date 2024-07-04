@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "EmployeeCreateRequestDTO",
+  "type": "object",
+  "required": [
+    "name",
+    "lastname",
+    "email",
+    "telephone"
+  ],
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "lastname": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string",
+      "pattern": "^[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,6}$"
+    },
+    "telephone": {
+      "type": "string",
+      "pattern": "^(\\+7|8)?(\\s?\\(?\\d{3}\\)?[\\s-]?)?\\d{3}[\\s-]?\\d{2}[\\s-]?\\d{2}$"
+
+    }
+  }
+}
