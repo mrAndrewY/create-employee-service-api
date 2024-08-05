@@ -3,11 +3,10 @@
   "title": "EmployeeDto",
   "type": "object",
   "required": [
-    "employee_id",
     "name",
     "lastname",
     "email",
-    "telephone"
+    "phone"
   ],
   "properties": {
     "id": {
